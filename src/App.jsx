@@ -6,7 +6,7 @@ import Stripes from './components/Stripes'
 
 const App = () => {
   return (
-    <div className='w-full h-screen font-["Satoshi Variable"] text-white bg-zinc-900'>
+    <div className='w-full font-["Satoshi Variable"] text-white bg-zinc-900'>
       <Navbar/>
       <Work/>
       <Stripes/>

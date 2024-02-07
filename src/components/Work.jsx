@@ -13,7 +13,7 @@ const Work = () => {
   return (
     <div className='w-full'>
       <div className='relative max-w-screen-xl mx-auto text-center'>
-        <h1 className='text-[35vw] leading-none font-medium tracking-tight select-none'>work</h1>
+        <h1 className='text-[33vw] leading-none font-medium tracking-tight select-none'>work</h1>
         <div className='absolute top-0 w-full h-full'>
           {images.map((el, i) => el.isActive && <img className='w-60 absolute rounded-lg -translate-x-[50%] -translate-y-[50%]' src={el.url} alt='' style={{ top: el.top, left: el.left }} />)}
         </div>
