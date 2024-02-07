@@ -21,7 +21,7 @@ const Products = () => {
     ];
 
   return (
-    <div>
+    <div className='mt-20'>
           {prod.map((el, i) => <Product data={el} />)}
     </div>
   )
